@@ -2,7 +2,7 @@ import styles from "./Sidebar.module.css";
 import { PencilLine } from "@phosphor-icons/react";
 import { Avatar } from "./Avatar";
 
-export function Sidebar(props) {
+export function Sidebar() {
   return (
     <aside className={styles.sidebar}>
       <img
